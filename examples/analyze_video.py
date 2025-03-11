@@ -27,7 +27,7 @@ def extract_video_id(url_or_id):
     return url_or_id.strip()
 
 def analyze_seo(video_id, seo_agent, args):
-    """Analyze video SEO performance."""
+    """Analyze video SEO performance and provide actionable suggestions."""
     print("\n=== SEO Analysis ===")
     try:
         # Get video analytics first
@@ -46,10 +46,28 @@ def analyze_seo(video_id, seo_agent, args):
             for metric, value in title_analysis.items():
                 print(f"- {metric}: {value}")
             
+            # Provide title improvement suggestions
+            print("\nTitle Improvement Suggestions:")
+            if title_analysis['length_score'] < 8:
+                print("- Consider shortening or lengthening the title to improve its score.")
+            if not title_analysis['has_number']:
+                print("- Add a number to the title to make it more engaging (e.g., '5 Tips for...').")
+            if not title_analysis['has_power_words']:
+                print("- Use power words to make the title more compelling.")
+            if not title_analysis['has_brackets']:
+                print("- Consider using brackets to highlight key benefits (e.g., '[2023 Update]').")
+            if not title_analysis['has_year']:
+                print("- Add the current year to show that your content is up-to-date.")
+            
             # Generate tag suggestions
             tags = seo_agent.generate_tags(title, count=args.tag_count)
             print(f"\nSuggested Tags (top {args.tag_count}):")
             print(", ".join(tags))
+            
+            # Provide tag improvement suggestions
+            print("\nTag Improvement Suggestions:")
+            print("- Ensure tags are relevant to the video content and popular search terms.")
+            print("- Use a mix of broad and specific tags to reach a wider audience.")
             
             if args.competitors:
                 print("\nCompetitor Analysis:")
@@ -65,7 +83,7 @@ def analyze_seo(video_id, seo_agent, args):
         print(f"Error in SEO analysis: {str(e)}")
 
 def analyze_engagement(video_id, engagement_agent, args):
-    """Analyze video engagement and generate suggestions."""
+    """Analyze video engagement and provide actionable suggestions."""
     print("\n=== Engagement Analysis ===")
     try:
         # Generate community posts
@@ -75,6 +93,11 @@ def analyze_engagement(video_id, engagement_agent, args):
             for i, post in enumerate(posts, 1):
                 print(f"\n{i}. Type: {post['type']}")
                 print(f"   Content: {post['content']}")
+        
+        # Provide engagement improvement suggestions
+        print("\nEngagement Improvement Suggestions:")
+        print("- Encourage viewers to comment by asking questions in your video.")
+        print("- Use community posts to keep your audience engaged between video uploads.")
         
         # Generate video response suggestions
         if args.response_ideas:
