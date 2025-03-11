@@ -1,0 +1,41 @@
+{
+  "engagement_templates": {
+    "comment_replies": [
+      "Thanks for your comment! {personalized_response}",
+      "Great point! {personalized_response} What do you think about {follow_up_question}?",
+      "I appreciate your feedback! {personalized_response} Would love to hear more of your thoughts on this.",
+      "Thanks for watching! {personalized_response} Let me know if you have any other questions.",
+      "You're absolutely right about {comment_topic}. {personalized_response}"
+    ],
+    "community_post_templates": [
+      "\ud83d\udd25 NEW VIDEO ALERT! \ud83d\udd25\n\n{video_title} is now live! In this video, I {video_description}\n\nCheck it out here: {video_link}\n\nWhat topic would you like to see next?",
+      "\ud83d\udcca POLL TIME! \ud83d\udcca\n\nWhich topic should I cover next?\n\n{option_1}\n{option_2}\n{option_3}\n{option_4}\n\nLet me know in the comments!",
+      "\ud83e\udd14 QUESTION OF THE DAY \ud83e\udd14\n\n{question}\n\nShare your thoughts in the comments below!",
+      "\ud83c\udf81 GIVEAWAY TIME! \ud83c\udf81\n\nI'm giving away {giveaway_item} to one lucky subscriber!\n\nTo enter:\n1. Like this post\n2. Subscribe to the channel\n3. Comment with {comment_prompt}\n\nWinner will be announced on {announcement_date}!",
+      "\ud83d\udcf1 BEHIND THE SCENES \ud83d\udcf1\n\n{behind_the_scenes_content}\n\nWhat kind of behind-the-scenes content would you like to see more of?"
+    ],
+    "call_to_action_templates": [
+      "If you found this video helpful, please give it a thumbs up and subscribe for more content like this!",
+      "Don't forget to hit the notification bell so you never miss a new upload!",
+      "What's your experience with {video_topic}? Let me know in the comments below!",
+      "If you have any questions about {video_topic}, drop them in the comments and I'll do my best to answer!",
+      "Want to see more videos like this? Let me know by liking and sharing this video!"
+    ],
+    "social_media_templates": {
+      "twitter": [
+        "\ud83c\udd95 New video alert! \ud83c\udfac {video_title} is now live on my channel. Check it out here: {video_link} #TechTok #YouTuber",
+        "Just dropped a new video about {video_topic}! \ud83d\ude80 Watch now: {video_link} #TechTips #{hashtag}",
+        "\ud83e\udd14 Question for my tech friends: {question} Share your thoughts and check out my latest video for my take: {video_link}",
+        "The secrets of {video_topic} REVEALED in my latest video! \ud83d\udd0d {video_link} #TechTutorial #{hashtag}"
+      ],
+      "instagram": [
+        "\ud83c\udfac NEW VIDEO ALERT! \ud83c\udfac\n\nJust uploaded a new video about {video_topic}!\n\nIn this video, you'll learn:\n\u2705 {point_1}\n\u2705 {point_2}\n\u2705 {point_3}\n\nLink in bio to watch! \ud83d\udc46\n\n#TechTok #{hashtag} #YouTuber #TechTips",
+        "Behind the scenes of my latest video! \ud83d\udcf1\n\n{behind_the_scenes_content}\n\nFull video now live - link in bio!\n\n#BehindTheScenes #ContentCreator #TechTok #{hashtag}"
+      ],
+      "facebook": [
+        "\ud83c\udd95 New video alert! \ud83c\udfac\n\nI just uploaded a new video about {video_topic}!\n\nIn this video, I cover:\n- {point_1}\n- {point_2}\n- {point_3}\n\nCheck it out here: {video_link}",
+        "Have you ever wondered about {video_topic}? \ud83e\udd14\n\nIn my latest video, I break down everything you need to know!\n\nWatch now: {video_link}"
+      ]
+    }
+  }
+}

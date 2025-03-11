@@ -1,0 +1,56 @@
+{
+  "month": 4,
+  "year": 2025,
+  "posts_per_week": 2,
+  "total_posts": 8,
+  "best_days": [
+    "Saturday",
+    "Thursday",
+    "Friday"
+  ],
+  "best_hours": [
+    0
+  ],
+  "schedule": [
+    {
+      "date": "2025-04-04",
+      "time": "00:00",
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2025-04-05",
+      "time": "00:00",
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2025-04-10",
+      "time": "00:00",
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2025-04-11",
+      "time": "00:00",
+      "day_of_week": "Friday"
+    },
+    {
+      "date": "2025-04-12",
+      "time": "00:00",
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2025-04-17",
+      "time": "00:00",
+      "day_of_week": "Thursday"
+    },
+    {
+      "date": "2025-04-19",
+      "time": "00:00",
+      "day_of_week": "Saturday"
+    },
+    {
+      "date": "2025-04-24",
+      "time": "00:00",
+      "day_of_week": "Thursday"
+    }
+  ]
+}

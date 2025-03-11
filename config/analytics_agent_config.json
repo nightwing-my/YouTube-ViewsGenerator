@@ -1,0 +1,25 @@
+{
+  "kpi_targets": {
+    "phase1": {
+      "subscribers_growth": 1000,
+      "view_count_per_video": 100,
+      "ctr": 0.05,
+      "watch_time_retention": 0.4,
+      "engagement_rate": 0.05
+    },
+    "phase2": {
+      "returning_viewers": 0.3,
+      "external_traffic": 0.05,
+      "session_duration": 2,
+      "community_engagement": 1
+    },
+    "phase3": {
+      "subscribers": 1000,
+      "watch_hours": 4000,
+      "monthly_revenue": 1000,
+      "collaborations": 1,
+      "email_subscribers": 500,
+      "live_viewers": 50
+    }
+  }
+}

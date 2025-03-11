@@ -1,0 +1,57 @@
+{
+  "schedule_templates": {
+    "optimal_posting_times": {
+      "monday": [
+        "15:00",
+        "18:00",
+        "20:00"
+      ],
+      "tuesday": [
+        "15:00",
+        "18:00",
+        "20:00"
+      ],
+      "wednesday": [
+        "15:00",
+        "18:00",
+        "20:00"
+      ],
+      "thursday": [
+        "15:00",
+        "18:00",
+        "20:00"
+      ],
+      "friday": [
+        "15:00",
+        "18:00",
+        "20:00"
+      ],
+      "saturday": [
+        "10:00",
+        "15:00",
+        "20:00"
+      ],
+      "sunday": [
+        "10:00",
+        "15:00",
+        "20:00"
+      ]
+    },
+    "content_frequency": {
+      "main_videos": 1,
+      "shorts": 2,
+      "community_posts": 3,
+      "live_streams": 1
+    },
+    "content_types": [
+      "tutorial",
+      "review",
+      "comparison",
+      "news",
+      "behind_the_scenes",
+      "Q&A",
+      "interview",
+      "top_list"
+    ]
+  }
+}

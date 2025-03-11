@@ -1,0 +1,28 @@
+{
+  "seo_templates": {
+    "title_templates": [
+      "Top {number} {keyword} Tips That Will {benefit}",
+      "How to {action} {keyword} in {timeframe}",
+      "{keyword} Tutorial: {specific_topic} for Beginners",
+      "The Ultimate Guide to {keyword} in {year}",
+      "{keyword} vs {alternative}: Which is Better for {purpose}?",
+      "Why {keyword} is {adjective} for {audience}",
+      "{number} {adjective} {keyword} Hacks You Need to Know",
+      "{keyword} {specific_topic}: Everything You Need to Know",
+      "I Tried {keyword} for {timeframe} - Here's What Happened",
+      "{action} Your {keyword} with These {adjective} Tips"
+    ],
+    "description_templates": [
+      "In this video, I'll show you how to {action} {keyword} to {benefit}. If you're looking to {goal}, these {adjective} tips will help you {outcome}.\n\n{timestamps}\n\n#LINKS\n{links}\n\n#TAGS\n{tags}",
+      "Discover the {adjective} ways to {action} {keyword} in this comprehensive guide. Whether you're a beginner or expert, you'll learn valuable insights about {specific_topic}.\n\n{timestamps}\n\n#LINKS\n{links}\n\n#TAGS\n{tags}",
+      "Are you struggling with {problem}? In this video, I'll share my top {number} {keyword} strategies that will help you {benefit}.\n\n{timestamps}\n\n#LINKS\n{links}\n\n#TAGS\n{tags}"
+    ],
+    "tag_categories": {
+      "main_keyword": [],
+      "related_keywords": [],
+      "broader_topics": [],
+      "specific_topics": [],
+      "questions": []
+    }
+  }
+}
